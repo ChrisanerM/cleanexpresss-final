@@ -1,12 +1,34 @@
-
 img {
-    width: 250px;
-    height: 125px;
-  }
-.admin{
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 50px;
-text-align: center;
-} 
+  width: 250px;
+  height: 125px;
+}
+.admin {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 50px;
+  text-align: center;
+}
 
+#rem {
+  background-color: darkred;
+  border-radius: 5px;
+  color: white;
+}
+#edit {
+  background-color: darkgreen;
+  border-radius: 5px;
+  width: 60px;
+  color: white;
+}
+
+#admin {
+  width: 80%;
+  border: solid 2px;
+  border-color: black;
+  margin-left: 145px;
+}
+
+.td {
+  border: solid 1px;
+  border-color: black;
+}
 

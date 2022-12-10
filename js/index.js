@@ -47,28 +47,26 @@ function displaydata() {
               <div class="card-body">
                 <h5 class="card-title text-center">${product.name}</h5>
                 <p class="card-text text-center">${product.cost}</p>
-                <button onclick="check()" type="button" class="btn btn-success" href="./html/admin.html" id="checkout">Checkout Here</button>
+                <button onclick="check()" type="button" class="btn btn-success" href="./html/admin.html" id="btn">Checkout Here</button>
               </div>
             </div>
             </div>
-        `
+        `;
   });
 }
 displaydata();
 
+// localStorage.setItem(
+//   "outcheck",
+//   JSON.stringify([
+//     {
+//       name,
+//       cost, 
+//       image,
+//     },
+//   ])
+// );
 
 
 
-
-// localStorage.setItem('checkout', JSON.stringify([
-//   {
-//     name,
-//     cost,
-//     image
-//   }
-// ]))
-
-
-
-//  Sorting and filtering
 

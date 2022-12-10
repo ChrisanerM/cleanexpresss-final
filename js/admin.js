@@ -10,6 +10,9 @@ servicesList.forEach((ser) => {
             <td><img src="${ser.image}"/></td>
             <td>${ser.name}</td>
             <td>${ser.cost}</td>
+            <td><button class="add" id="edit">Add</button>
+            <button class="del" id="rem">Delete</button>
+            </td>
         </tr>
     `;
 });

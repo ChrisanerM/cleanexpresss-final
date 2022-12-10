@@ -37,19 +37,3 @@ body {
   justify-content: space-evenly;
 }
 
-
-
-/* Admin */
-#admin{
-  width: 80%;
-  border: solid 2px;
-  border-color: black;
-  margin-left: 145px;
-}
-
-.td{
-  border: solid 1px;
-  border-color: black;
-
-}
-
